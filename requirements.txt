@@ -1,0 +1,4 @@
+discord.py[voice]
+pymongo
+mysql-connector-python
+pyowm

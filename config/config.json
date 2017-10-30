@@ -1,0 +1,9 @@
+{
+    "owner": "YOUR_DISCORD_ID_HERE",
+    "command_prefix": "*",
+    "bot_name": "Viking",
+    "token": "YOUR_BOT_TOKEN_HERE",
+    "owm_api_key": "YOUR_OWM_API_KEY_HERE",
+    "lol_api_key": "YOUR_LOL_API_KEY_HERE",
+    "giphy_api_key": "YOUR_GIPHY_API_KEY_HERE"
+}
