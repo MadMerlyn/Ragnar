@@ -14,8 +14,8 @@ class Discord:
         A command that will clear a specified amount of messages from a text channel.
         """
 
-        deleted = await ctx.channel.purge(limit=amount)
-        await ctx.send('I have cleared {} messages.'.format(len(deleted)), delete_after=3.0)
+        deleted = await ctx.channel.purge(limit=amount+1)
+        await ctx.send('I have cleared {} messages.'.format(len(deleted)-1), delete_after=3.0)
 
     @viking.command()
     async def joined(self, ctx, *, member: discord.Member):
